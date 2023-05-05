@@ -4,7 +4,7 @@ body {
 }
 
 .logo {
-  background: "images/logo.png";
+  background: url('images/logo.png');
   height: 20px;
   width: 20px;
   display: block;
