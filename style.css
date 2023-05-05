@@ -73,7 +73,7 @@ body {
 
   /* --------------------- media queries --------------------------*/
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 660px) {
     .navbarPages a:not(:first-child) {display: none;}
     .navbarPages a.dropdownIcon {
       float: right;
@@ -82,7 +82,7 @@ body {
   }
   
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 660px) {
     .navbarPages.responsive {position: relative;}
     .navbarPages.responsive a.dropdownIcon {
       position: absolute;
