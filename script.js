@@ -8,10 +8,11 @@ function dropdown() {
       x.className = "navbarPages";
     }
 
+    /* 
     if (y.className === "navbar") {
       y.className += " responsive";
     } else {
       y.className = "navbar";
     }
-
+    */
   }
