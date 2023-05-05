@@ -9,9 +9,9 @@ function dropdown() {
     }
 
     if (y.className === "navbar") {
-      x.className += " responsive";
+      y.className += " responsive";
     } else {
-      x.className = "navbar";
+      y.className = "navbar";
     }
 
   }
