@@ -7,8 +7,7 @@ body {
 
 /* ------------------------------ Navbar -----------------------------*/
 .navbar {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.871)
-   5%, rgba(159, 210, 255, 0.864) 35%, rgba(57, 109, 186, 0.871) 83%,rgba(0, 37, 85, 0.871) 100%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.871)   5%, rgba(159, 210, 255, 0.864) 35%, rgba(57, 109, 186, 0.871) 83%,rgba(0, 37, 85, 0.871) 100%);
     overflow: hidden;
   }
   
@@ -94,5 +93,9 @@ body {
       float: none;
       display: block;
       text-align: right;
+    }
+
+    .navbar.responsive {
+      background-image: linear-gradient(to bottom, rgba(200, 255, 255, 0) 17.5%, rgba(0, 0, 0, 0.7) 0%), linear-gradient(to right, rgba(255, 255, 255, 0.871)   5%, rgba(159, 210, 255, 0.864) 35%, rgba(57, 109, 186, 0.871) 83%,rgba(0, 37, 85, 0.871) 100%);
     }
   }
