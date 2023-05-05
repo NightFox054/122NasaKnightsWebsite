@@ -5,6 +5,12 @@ body {
 
 /* ------------------------------ Home Page -----------------------------*/
 
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* ------------------------------ Navbar -----------------------------*/
   /* Navbar container */
   .navbar {
