@@ -8,7 +8,6 @@ body {
 /* ------------------------------ Navbar -----------------------------*/
   .navbar {
     /*background-image: linear-gradient(to right, rgba(255, 255, 255, 0.871)   5%, rgba(159, 210, 255, 0.864) 35%, rgba(57, 109, 186, 0.871) 83%,rgba(0, 37, 85, 0.871) 100%);*/
-    background-color: rgba(0, 0, 0, 0);
     overflow: hidden;
   }
   
@@ -97,6 +96,12 @@ body {
       }
       .navbar {
         background-color: rgb(5, 20, 57);
+      }
+    }
+
+    @media screen and (min-width: 670px) {
+      .navbar {
+        background-color: rgba(0, 0, 0, 0);
       }
     }
 
