@@ -11,17 +11,20 @@ body {
     overflow: hidden;
   }
   
-  /* Navbar links */
-  .home {
+  /* Navbar links homebutton */
+  .homeButton {
+    float: left;
+    display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    direction: rtl
   }
   
-  /* Navbar links */
-  .navbar a {
+  /* Navbar links except for Home */
+  .navbarPages  {
     float: right;
     display: block;
     color: #f2f2f2;
@@ -29,6 +32,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    direction: rtl
   }
   
   /* Navbar links on hover */
