@@ -95,13 +95,13 @@ body {
         text-align: right;
       }
       .navbar {
-        background-color: rgb(5, 20, 57);
+        background: rgb(5, 20, 57);
       }
     }
 
     @media screen and (min-width: 670px) {
       .navbar {
-        background-color: rgba(0, 0, 0, 0);
+        background: transparent;
       }
     }
 
