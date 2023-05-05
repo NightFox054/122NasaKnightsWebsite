@@ -88,6 +88,7 @@ body {
       }
       .navbarPages a {
         display: none;
+        padding: 27.5px 16px;
       }
       .navbarPages a.dropdownIcon {
         float: right;
@@ -110,6 +111,10 @@ body {
     @media screen and (min-width: 670px) {
       .navbar {
         background: transparent;
+      }
+      .navbarPages a {
+        display: none;
+        padding: 22px 16px;
       }
       .home {
         padding: 10px 0 0 10px;
