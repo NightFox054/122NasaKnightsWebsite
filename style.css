@@ -44,6 +44,7 @@ body {
   .navbarSpacer {
     color: transparent!important;
   }
+  /*FIXME #2 a better formatting solution rather than an <a> spacer*/
 
   /* Navbar links except for Home */
   .navbarPages a {
@@ -100,6 +101,7 @@ body {
     .navbar {background: rgb(5, 20, 57);}
     .homeIcon {padding: 15px 0 0 15px;}
     .homeLink {scale: 0;}
+    /*FIXME #1 show:none instead of scale*/
   }
 
   @media screen and (min-width: 760px) {
