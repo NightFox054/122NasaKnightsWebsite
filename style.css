@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
-  min-height: 70vw;
+  height: 70vw;
   display: flex;
   flex-direction: column;
   align-items: center;
