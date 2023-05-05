@@ -57,7 +57,7 @@ body {
   }
 
   /* Navbar links on hover */
-  .navbarPages a:hover {
+  .navbarPages a:hover:not(.navbarSpacer) {
     background-color: #ddd;
     color: black;
   }
