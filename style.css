@@ -46,6 +46,11 @@ body {
   }
   /*FIXME #2 a better formatting solution rather than an <a> spacer*/
 
+  .navbarPages {
+    float: right;
+    padding-right: 10px;
+  }
+
   /* Navbar links except for Home */
   .navbarPages a {
     float: left;
