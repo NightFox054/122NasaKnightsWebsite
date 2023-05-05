@@ -32,6 +32,7 @@ body {
   .homeLink {
     float: left;
     display: block;
+    font-family: 'Bruno Ace';
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -47,6 +48,7 @@ body {
   .navbarPages a {
     float: left;
     display: block;
+    font-family: 'Lilita One';
     color: #f2f2f2;
     text-align: center;
     padding: 22px 16px;
