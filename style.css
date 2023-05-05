@@ -42,7 +42,6 @@ body {
     }
   
   /* Navbar links except for Home */
-  /* FIXME: make navbar float right w/o reversing order*/
   .navbarPages a {
     float: left;
     display: block;
@@ -73,7 +72,7 @@ body {
   /* --------------------- media queries --------------------------*/
 
     @media screen and (max-width: 660px) {
-    .navbarPages a:not(:first-child) {
+    .navbarPages a {
       display: none;
     }
     .navbarPages a.dropdownIcon {
