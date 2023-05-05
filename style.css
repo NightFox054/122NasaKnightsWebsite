@@ -6,9 +6,14 @@ body {
 /* ------------------------------ Home Page -----------------------------*/
 
 .banner {
+  background: url(images/banner.JPG);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 70vw;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 /* ------------------------------ Navbar -----------------------------*/
