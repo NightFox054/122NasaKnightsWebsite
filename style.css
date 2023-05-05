@@ -20,19 +20,18 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    direction: rtl
   }
   
   /* Navbar links except for Home */
-  .navbarPages  {
-    float: right;
+  /* FIXME: make navbar float right w/o reversing order*/
+  .navbar a {
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    direction: rtl
   }
   
   /* Navbar links on hover */
