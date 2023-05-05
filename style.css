@@ -86,7 +86,7 @@ body {
     .navbarPages.responsive {position: relative;}
     .navbarPages.responsive a.dropdownIcon {
       position: absolute;
-      right: 0;
+      right: 10px;
       top: 0;
     }
     .navbarPages.responsive a {
