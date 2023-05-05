@@ -26,9 +26,8 @@ body {
     .homeIcon {
       float: left;
       display: block;
-      padding: 14px 16px;
       width: auto;
-      height: 10px;
+      height: 40px;
     }
 
     /* Navbar links home icon */
@@ -74,7 +73,9 @@ body {
   /* --------------------- media queries --------------------------*/
 
     @media screen and (max-width: 660px) {
-    .navbarPages a:not(:first-child) {display: none;}
+    .navbarPages a:not(:first-child) {
+      display: none;
+    }
     .navbarPages a.dropdownIcon {
       float: right;
       display: block;
