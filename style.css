@@ -47,7 +47,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 27.5px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -71,7 +71,7 @@ body {
 
   /* --------------------- media queries --------------------------*/
 
-    @media screen and (max-width: 660px) {
+    @media screen and (max-width: 670px) {
     .navbarPages a {
       display: none;
     }
@@ -82,7 +82,7 @@ body {
   }
   
   
-  @media screen and (max-width: 660px) {
+  @media screen and (max-width: 670px) {
     .navbarPages.responsive {position: relative;}
     .navbarPages.responsive a.dropdownIcon {
       position: absolute;
