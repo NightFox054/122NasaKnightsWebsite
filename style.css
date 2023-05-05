@@ -4,10 +4,10 @@ body {
 }
 
 .logo {
-  background: url('images/logo.png');
+  background: url('images/icon.png');
   height: 20px;
   width: 20px;
-  display: block;
+  display: inline;
   /* Other styles here */
 }
 
@@ -17,6 +17,15 @@ body {
 .navbar {
     background-color: #3333339e;
     overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .home {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
   
   /* Navbar links */
