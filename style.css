@@ -40,7 +40,7 @@ body {
   }
   
   .navbarSpacer {
-    color: transparent;
+    color: transparent!important;
   }
 
   /* Navbar links except for Home */
