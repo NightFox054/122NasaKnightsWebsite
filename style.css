@@ -28,7 +28,6 @@ body {
     display: block;
     width: auto;
     height: 40px;
-    transition: 0.5s;
   }
 
   /* Navbar links home icon */
@@ -51,7 +50,6 @@ body {
   .navbarPages {
     float: right;
     padding-right: 10px;
-    transition: 1s;
   }
 
   /* Navbar links except for Home */
