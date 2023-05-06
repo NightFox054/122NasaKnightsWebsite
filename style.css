@@ -8,8 +8,9 @@ body {
   .navbar {
     overflow: hidden;
     position: fixed;
-    top: 0;
-  }
+    transition: .35s;
+    transition-timing-function: ease-out;
+}
   
   /* Navbar home links container */
   .home {
