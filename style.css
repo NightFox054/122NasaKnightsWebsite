@@ -128,9 +128,19 @@ body {
   background: rgba(255, 255, 255, 0.85);
   color: rgba(0, 0, 0, 0.8);
 }
+/* ------------------------------ Footer -----------------------------*/
+
+.footer {
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20vw, 10vw;
+}
 
 
-  /* --------------------- media queries --------------------------*/
+/* --------------------- media queries --------------------------*/
 
   @media screen and (max-width: 775px) {
     .navbarPages.responsive {
