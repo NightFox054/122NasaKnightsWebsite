@@ -111,17 +111,21 @@ body {
 
 .bannerButton {
   display: inline-block;
-  padding: 0.3em 1em;
+  padding: .7em 1.9em;
   text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
+  color: white;
+  border: solid 1px white;
   border-radius: 3px;
-  transition: .4s;
+  transition: .3s;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Bruno Ace';
+  font-size: 1.9vh;
+  font-style: italic;
 }
 
 .bannerButton:hover {
-  background: #67c5ff;
-  color: white;
+  background: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 
