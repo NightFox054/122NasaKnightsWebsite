@@ -3,6 +3,12 @@ body {
   margin: 0;
 }
 
+a:-webkit-any-link {
+  color:inherit;
+  cursor: pointer;
+  text-decoration:inherit;
+}
+
 /* ------------------------------ Navbar -----------------------------*/
   /* Navbar container */
   .navbar {
@@ -138,6 +144,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 150px;
+  gap: 20px;
 }
 
 .smButtons {
@@ -152,6 +159,7 @@ body {
   font-family: 'Bruno Ace';
   font-size: 1vw;
   color: rgba(255, 255, 255, .5);
+  margin: 0;
 }
 
 /* --------------------- media queries --------------------------*/
