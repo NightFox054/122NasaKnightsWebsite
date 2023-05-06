@@ -125,7 +125,7 @@ a:-webkit-any-link {
 }
 
 .parallax__layer--bannerImage {
-  background: url(images/banner.JPG);
+  /*background: url(images/banner.JPG);*/
   transform: translateZ(-1);
 
 .bannerText {
