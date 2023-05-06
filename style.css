@@ -98,6 +98,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2vw;
 }
 
 .bannerText {
@@ -131,14 +132,27 @@ body {
 /* ------------------------------ Footer -----------------------------*/
 
 .footer {
-  background-color: rgb(53, 53, 53);
+  background-image: linear-gradient(rgb(20 28 41), rgb(28 40 56)7%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20vw, 10vw;
+  height: 150px;
 }
 
+.smButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  font-size: 2vw;
+  color: rgba(255, 255, 255, .7);
+}
+
+.footerText {
+  font-family: 'Bruno Ace';
+  font-size: 1vw;
+  color: rgba(255, 255, 255, .5);
+}
 
 /* --------------------- media queries --------------------------*/
 
