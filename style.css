@@ -7,6 +7,9 @@ body {
   /* Navbar container */
   .navbar {
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   /* Navbar home links container */
@@ -90,7 +93,7 @@ body {
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
-  height: 70vw; /*placeholder value*/
+  height: 100vh
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,11 +102,12 @@ body {
 
 .bannerText {
   font-family: 'Bruno Ace';
-  font-size: 10vw;
+  font-size: 7vw;
   font-weight: bolder;
   font-style: italic;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
   padding: 20px;
+  text-shadow: 1px 7px 15px black;
 }
 
 
@@ -141,7 +145,7 @@ body {
   }
 
   @media screen and (min-width: 760px) {
-    .navbar {background: rgba(5, 20, 57, 0.3);}
+    .navbar {background: rgba(5, 20, 57, 0.6);}
     .navbarPages a {padding: 22px 16px;}
     .homeIcon {padding: 8px 0 0 10px;}
     .homeLink {scale: 1;}
