@@ -12,9 +12,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset; //somehow this redundancy is necessary
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("Navbar").style.top = "0";
+    document.getElementById("NavContainer").style.top = "0";
   } else {
-    document.getElementById("Navbar").style.top = "-50px";
+    document.getElementById("NavContainer").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
 }
