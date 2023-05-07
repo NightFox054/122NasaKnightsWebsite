@@ -1,4 +1,11 @@
 /* ------------------------------ General -----------------------------*/
+
+:root {
+  --lightblue: rgb(0, 107, 195);
+  --lightnavy: rgb(39, 56, 78);
+  --darknavy: rgb(28 40 56);
+}
+
 body {
   margin: 0;
 }
@@ -23,7 +30,7 @@ a:-webkit-any-link {
   .home {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     text-decoration: none;
     font-size: 17px;
@@ -43,7 +50,7 @@ a:-webkit-any-link {
     float: left;
     display: block;
     font-family: 'Bruno Ace';
-    color: #f2f2f2;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 18.5px 16px;
     text-decoration: none;
@@ -67,7 +74,7 @@ a:-webkit-any-link {
     float: left;
     display: block;
     font-family: 'Bruno Ace';
-    color: #f2f2f2;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 22px 16px;
     text-decoration: none;
@@ -81,10 +88,15 @@ a:-webkit-any-link {
   }
     
   /* Navbar highlight active page */
+
+  /*FIXME #5 make active page thing work*/
+
+  /*
   .navbarPages a.active {
     background-color: #04AA6D;
     color: white;
   }
+  */
     
   /* Navbar hide links for small windows */
   .navbarPages .dropdownIcon {
@@ -147,11 +159,11 @@ a:-webkit-any-link {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  box-shadow: inset 0px 5px 12px 0px rgb(0 0 0 / 56%);
+  box-shadow: inset 0px 5px 12px 0px rgba(0, 0, 0, 0.56);
 }
 
 .sect1Text {
-  background-image: linear-gradient(rgb(0, 107, 195)1%, rgb(28 40 56)1%);
+  background-image: linear-gradient(var(--lightblue)1%, var(--darknavy)1%);
   width: 100%;
   height: 50vh;
 }
@@ -162,40 +174,40 @@ a:-webkit-any-link {
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  box-shadow: inset 0px 8px 12px 0px rgb(0 0 0 / 56%);
+  box-shadow: inset 0px 8px 12px 0px rgba(0, 0, 0, .56);
 }
 
 .sect2Text {
-  background-image: linear-gradient(to right, rgb(0, 107, 195)0.75%, rgb(28 40 56)0.75%);
+  background-image: linear-gradient(to right, var(--lightblue)0.75%, var(--darknavy)0.75%);
   width: 50vw;
   height: 100%;
-  box-shadow: inset 0px 7px 12px 0px rgb(0 0 0 / 21%);
+  box-shadow: inset 0px 7px 12px 0px rgba(0, 0, 0, .21);
 }
 
 .contact {
-  background: rgb(39, 56, 78);
-  height: 30vh;
+  background: var(--lightnavy);
+  height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0px 5px 12px 0px rgb(0 0 0 / 56%);
+  box-shadow: -3px -7px 14px 0px rgb(0 0 0 / 56%);
 }
 
 /* ------------------------------ Footer -----------------------------*/
 
 .footer {
-  background: rgb(28 40 56);
+  background: var(--darknavy);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 150px;
+  height: 25vh;
   gap: 20px;
 }
 
