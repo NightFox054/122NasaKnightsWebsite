@@ -151,21 +151,42 @@ a:-webkit-any-link {
 }
 
 .sect1Text {
-  background-image: linear-gradient(rgb(0, 107, 195)7%, rgb(28 40 56)7%);
+  background-image: linear-gradient(rgb(0, 107, 195)1%, rgb(28 40 56)1%);
   width: 100%;
   height: 50vh;
+  box-shadow: inset -1px -9px 20px 0px rgb(0 0 0 / 56%);
+}
+
+.sect2 {
+  background: url(images/compstrat.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: inset 0px 5px 12px 0px rgb(0 0 0 / 56%);
+}
+
+.sect2Text {
+  background-image: linear-gradient(rgb(0, 107, 195)1%, rgb(28 40 56)1%);
+  width: 100%;
+  height: 50vh;
+  box-shadow: inset -1px -9px 20px 0px rgb(0 0 0 / 56%);
 }
 /* ------------------------------ Footer -----------------------------*/
 
 .footer {
-  background: rgb(28 40 56));
+  background: rgb(28 40 56);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 150px;
   gap: 20px;
-  box-shadow: inset 0px 5px 12px 0px rgb(0 0 0 / 56%);
 }
 
 .smButtons {
