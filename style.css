@@ -33,6 +33,7 @@ a:-webkit-any-link {
 }
 .active.fadeLeft {
   animation: fadeLeft .5s ease-in;
+  animation-delay: 1s;
 }
 @keyframes fadeUp {
   0% {
@@ -279,7 +280,29 @@ a:-webkit-any-link {
   background-image: linear-gradient(to right, var(--lightblue)0.75%, var(--mediumnavy)0.75%);
   width: 50vw;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5vw;
   box-shadow: inset 0px 7px 12px 0px rgba(0, 0, 0, .21);
+}
+
+.sect2Title {
+  font-family: 'Bruno Ace';
+  font-size: 1.5vw;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 0 0 1.75em;
+  margin: 0;
+}
+
+.sect2Para {
+  font-family: 'Bruno Ace';
+  font-size: 1vw;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0 4em;
+  margin: 0;
 }
 
 .contact {
