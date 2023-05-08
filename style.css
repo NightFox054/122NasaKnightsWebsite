@@ -207,7 +207,7 @@ a:-webkit-any-link {
   border: solid 1px white;
   border-radius: 3px;
   transition: .3s;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: transparent;
   font-family: 'Bruno Ace';
   font-size: 0.8vw;
   font-style: italic;
@@ -309,13 +309,15 @@ a:-webkit-any-link {
   background: var(--darknavy);
   height: 40vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
   box-shadow: -3px -7px 14px 0px rgb(0 0 0 / 56%);
+  justify-content: center;
+  flex-wrap: wrap;
+  color: rgba(255, 255, 255, .5);
 }
 
-.contact.span {
+.contactSpan {
   display: flex;
 }
 
@@ -329,6 +331,26 @@ a:-webkit-any-link {
 
 .contactDescr {
   font-family: 'Comme';
+}
+
+.contactButton {
+  display: inline-block;
+  padding: .7em 1.9em;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  border-radius: 3px;
+  transition: .3s;
+  background-color: transparent;
+  font-family: 'Bruno Ace';
+  font-size: 0.8vw;
+  font-style: italic;
+  margin-left: 6vw;
+}
+
+.contactButton:hover {
+  background: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* ------------------------------ Footer -----------------------------*/
