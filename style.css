@@ -220,7 +220,7 @@ a:-webkit-any-link {
 }
 
 .sect1 {
-  background: url(images/compstrat.jpg);
+  background: url(images/news.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
@@ -313,6 +313,22 @@ a:-webkit-any-link {
   align-items: center;
   justify-content: center;
   box-shadow: -3px -7px 14px 0px rgb(0 0 0 / 56%);
+}
+
+.contact.span {
+  display: flex;
+}
+
+.contactTitles {
+  font-family: 'Bruno Ace';
+}
+
+.contact.span.fa {
+  font-size: 20px;
+}
+
+.contactDescr {
+  font-family: 'Comme';
 }
 
 /* ------------------------------ Footer -----------------------------*/
