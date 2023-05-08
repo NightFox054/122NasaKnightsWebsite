@@ -26,18 +26,18 @@ a:-webkit-any-link {
   opacity: 1;
 }
 .active.fadeUp {
-  animation: fadeUp 1s ease-in;
+  animation: fadeUp .5s ease-in;
 }
 .active.fadeRight {
-  animation: fadeRight 1s ease-in;
+  animation: fadeRight .5s ease-in;
 }
 .active.fadeLeft {
-  animation: fadeLeft 1s ease-in;
+  animation: fadeLeft .5s ease-in;
 }
 @keyframes fadeUp {
   0% {
-    transform: translateY(50px);
-    opacity: 0;
+    transform: translateY(10vh);
+    opacity: 0.5;
   }
   100% {
     transform: translateY(0);
@@ -46,8 +46,8 @@ a:-webkit-any-link {
 }
 @keyframes fadeRight {
   0% {
-    transform: translateX(-100px);
-    opacity: 0;
+    transform: translateX(-5vw);
+    opacity: 0.5;
   }
   100% {
     transform: translateX(0);
@@ -57,8 +57,8 @@ a:-webkit-any-link {
 
 @keyframes fadeLeft {
   0% {
-    transform: translateX(100px);
-    opacity: 0;
+    transform: translateX(5vw);
+    opacity: 0.5;
   }
   100% {
     transform: translateX(0);
