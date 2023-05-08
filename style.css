@@ -33,7 +33,6 @@ a:-webkit-any-link {
 }
 .active.fadeLeft {
   animation: fadeLeft .5s ease-in;
-  animation-delay: 1s;
 }
 @keyframes fadeUp {
   0% {
