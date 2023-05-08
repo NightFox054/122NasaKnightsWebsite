@@ -167,6 +167,15 @@ a:-webkit-any-link {
   align-items: center;
   justify-content: center;
   gap: 2vw;
+  opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+.loaded .banner {
+  opacity: 1;
 }
 
 .bannerText {
