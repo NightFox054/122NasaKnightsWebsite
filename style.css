@@ -199,6 +199,25 @@ a:-webkit-any-link {
   color: rgba(0, 0, 0, 0.8);
 }
 
+.sectButton {
+  display: inline-block;
+  padding: .7em 1.9em;
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  border-radius: 3px;
+  transition: .3s;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'Bruno Ace';
+  font-size: 1.9vh;
+  font-style: italic;
+}
+
+.sectButton:hover {
+  background: rgba(255, 255, 255, 0.85);
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .sect1 {
   background: url(images/compstrat.jpg);
   background-repeat: no-repeat;
@@ -217,6 +236,21 @@ a:-webkit-any-link {
   background-image: linear-gradient(var(--lightblue)1%, var(--mediumnavy)1%);
   width: 100%;
   height: 50vh;
+}
+
+.sect1Title {
+  font-family: 'Bruno Ace';
+  font-size: 2vw;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.sect1Para {
+  font-family: 'Bruno Ace';
+  font-size: 1vw;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
 }
 
 .sect2 {
