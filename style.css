@@ -17,6 +17,55 @@ a:-webkit-any-link {
   text-decoration:inherit;
 }
 
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fadeUp {
+  animation: fadeUp 1s ease-in;
+}
+.active.fadeRight {
+  animation: fadeRight 1s ease-in;
+}
+.active.fadeLeft {
+  animation: fadeLeft 1s ease-in;
+}
+@keyframes fadeUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 /* ------------------------------ Navbar -----------------------------*/
   /* Navbar container */
   .navbar {
