@@ -234,7 +234,7 @@ a:-webkit-any-link {
 }
 
 .sect1Text {
-  background-image: linear-gradient(to right, var(--lightblue)0.75%, var(--mediumnavy)0.75%);
+  background-image: linear-gradient(var(--lightblue)0.75%, var(--mediumnavy)0.75%);
   width: 100vw;
   height: 40vh;
   display: flex;
@@ -278,7 +278,7 @@ a:-webkit-any-link {
 
 .sect2Text {
   background-image: linear-gradient(to right, var(--lightblue)0.75%, var(--mediumnavy)0.75%);
-  width: 50vw;
+  width: 30vw;
   height: 100%;
   display: flex;
   flex-direction: column;
