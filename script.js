@@ -8,7 +8,15 @@ function dropdown() {
 
   }
 
-var navbarShift = "-50px"
+var navbarShift = undefined;
+
+if (window.outerWidth(true) >= 775) {
+  navbarShift = "-50px";
+} else {
+  navbarShift = "-80px";
+}
+
+
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
