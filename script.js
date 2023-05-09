@@ -8,6 +8,7 @@ function dropdown() {
 
   }
 
+  /*
 var navbarShift = undefined;
 
 if (window.outerWidth >= 775) {
@@ -15,8 +16,9 @@ if (window.outerWidth >= 775) {
 } else {
   navbarShift = "-80px";
 }
+*/
 
-
+navbarShift = "-80px";
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
