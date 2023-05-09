@@ -10,7 +10,7 @@ function dropdown() {
 
 var navbarShift = undefined;
 
-if (window.outerWidth(true) >= 775) {
+if (window.outerWidth >= 775) {
   navbarShift = "-50px";
 } else {
   navbarShift = "-80px";
